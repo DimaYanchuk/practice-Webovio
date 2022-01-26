@@ -16,163 +16,174 @@
     <!-- Шапка сайта -->
 
     <header>
-      <!-- Навигация -->
-      <nav>
-        <div>
-          <a href="./index.html"><img src="./images/Logo.svg" alt="site logo"></a>
-          
-          <a href="./"><img src="./images/nav-icon.svg" alt="navigation icon"></a>
-        </div>
+      <nav class="nav">
+        <a class="link" href="./index.html"><img src="./images/Logo.svg" alt="site logo" width="258" height="40"></a>
+      
+        <a class="link" href="./"><img src="./images/nav-icon.svg" alt="navigation icon"></a>
       </nav>
-
-      <!-- Слайдер -->
-      <div>
-        <img src="./images/Bitmap.jpg" alt="stylish interior" width="1441" height="811">
-
-        <p>A place where</p>
-
-        <h1>A creative agency for redemptive brands</h1>
-
-        <p>Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.</p>
-
-        <a href="">Get in touch</a>
-      </div>
     </header>
 
     <!-- Основное содержимое страницы -->
-    <main>
 
-      <!-- Клиенты -->
-      <section>
-        <h3 hidden>Clients</h3>
-        <ul>
-          <li><img src="./images/Andrew-Porter-Logo.svg" alt="Andrew Porter Logo"></li>
-          <li><img src="./images/Jalen-Rose-Leadership-Academy-Logo.svg" alt="Leadership Academy Logo"></li>
-          <li><img src="./images/Walbride-logo.svg" alt="Walbride logo"></li>
-          <li><img src="./images/Ideal-logo.svg" alt="Ideal logo"></li>
-          <li><img src="./images/PhalenLeadership-logo.svg" alt="PhalenLeadership logo"></li>
-        </ul>
+    <main> 
+
+      <!-- Герой -->
+      <section class="hero">
+        <div class="hero-cont">
+          <p class="text-above">A place where</p>
+        
+          <h1 class="hero-title">A creative agency for redemptive brands</h1>
+        
+          <p class="text-below">Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and
+            enterprises.</p>
+        
+          <details class="hero-dtls">
+            <summary class="dtls-summary">Get in touch</summary>
+            <ul class="list">
+              <li>
+                <p class="text">Feel free to get in touch with us vai email</p>
+                <a class="link" href="mailto:info.webovio@gmail.com">info.webovio@gmail.com</a>
+              </li>
+              <li>
+                <ul class="list">
+                  <li><a class="link" href="" aria-label="Facebook link">Facebook</a></li>
+                  <li><a class="link" href="" aria-label="Twitter link">Twitter</a></li>
+                  <li><a class="link" href="" aria-label="Google link">Instagram</a></li>
+                  <li><a class="link" href="" aria-label="Instagram link">LinkedIn</a></li>
+                </ul>
+              </li>
+            </ul>
+          </details>
+        </div>
       </section>
 
-      <!-- Услуги -->
-      <section>
-        <p>What we do for you</p>
-      
-        <h3>Strategy. Design Content. Technology
-        Development</h3>
-      
-        <p>There's no secret sauce, no wizard behind the curtain. What makes Aerolab tick is an interdisciplinary team with a
-        framework that fosters candid collaboration.</p>
-      
-        <a href="">More know About us</a>
+      <!-- Клиенты -->
+      <aside class="clients">
+        <h3 hidden>Clients</h3>
+        <ul class="list">
+          <li class="item"><img src="./images/Andrew-Porter-Logo.svg" alt="Andrew Porter Logo"></li>
+          <li class="item"><img src="./images/Jalen-Rose-Leadership-Academy-Logo.svg" alt="Leadership Academy Logo"></li>
+          <li class="item"><img src="./images/Walbride-logo.svg" alt="Walbride logo"></li>
+          <li class="item"><img src="./images/Ideal-logo.svg" alt="Ideal logo"></li>
+          <li class="item"><img src="./images/PhalenLeadership-logo.svg" alt="PhalenLeadership logo"></li>
+        </ul>
+      </aside>
 
-        <figure>
-          <blockquote>
+      <!-- Услуги -->
+      <section class="services">
+        <div class="services-cont">
+          <p class="text-above">What we do for you</p>
+          
+          <h2 class="section-title">Strategy. Design Content. Technology Development</h2>
+          
+          <p>There's no secret sauce, no wizard behind the curtain. What makes Aerolab tick is an interdisciplinary team with a
+            framework that fosters candid collaboration.</p>
+          
+          <a class="link" href="">More know About us</a>
+        </div>
+        
+        <figure class="prim-quote">
+          <blockquote class="quote-txt">
             <p>With More than 10 Years of Knowledge and Expertise we Design and Code Websites and Apps, We Build Brands and Help Them Succeed</p>
           </blockquote>
-          <img src="./images/Genevieve.jpg" alt="Genevieve Rodriquez photo">
+          <img class="quote-pic" src="./images/Genevieve.jpg" alt="Genevieve Rodriquez photo">
           <figcaption>
-            <p>Genevieve Rodriquez</p>
-            <p>Founder & CEO, Webovio</p>
+            <p class="quote-sign">Genevieve Rodriquez</p>
+            <p class="quote-title">Founder & CEO, Webovio</p>
           </figcaption>
         </figure>
       </section>
 
       <!-- Проекты -->
-      <article>
-          <h2>We Have Some Awesome Project.</h2>
-          
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s,</p>
+      <section class="projects">
+        <h2 class="section-title">We Have Some Awesome Project.</h2>
         
-        <!-- Примеры проектов -->
-        <section>
-          <h3 hidden>Projects examples</h3>
-          <ul>
-            <li>
-              <img src="./images/project-1.jpg" alt="some number of elements" width="735" height="550">
-              <h4>The wall new Balenciaga.com</h4>
-              <p>This article is floated online with an aim to help you find the best dvd printing solution.
-              Dvd printing is an important feature used by large and small DVD production houses to print information on DVDs.</p>
-              <a href="">See Case Study</a>
-
-              <figure>
-                <blockquote>
-                  <p>“In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”</p>
-                </blockquote>
-                <img src="./images/Angel.jpg" alt="Angel Armstrong photo" width="46" height="46">
-                <figcaption>
-                  <p>Angel Armstrong</p>
-                  <p>Founder & CEO, Google</p>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li>
-              <img src="./images/project-2.jpg" alt="some number of elements" width="735" height="550">
-              <h4>Is this the future of 3D model?</h4>
-              <p>While it was just a TV show, that little speech at the beginning of the original Star Trek show really did do a good job
-              of capturing our feelings about space.
-              It is those feelings that drive our love of astronomy and our desire to learn more and more about it.</p>
-              <a href="">See Case Study</a>
-
-              <figure class="quote-card">
-                <blockquote>
-                  <p class="quote-text">“I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems.</p>
-                </blockquote>
-                <img src="./images/lina.jpg" alt="Lina Hart photo" width="46" height="46">
-                <figcaption>
-                  <p class="quote-title">Lina Hart</p>
-                  <p class="quote-sign">Founder & CEO, Jico</p>
-                </figcaption>
-              </figure>
-
-            <li>
-              <img src="./images/project-3.jpg" alt="some number of elements" width="735" height="550">
-              <h4>Is this the future of Online Booking</h4>
-              <p>You should be able to find several indispensable facts about motivation in the following paragraphs.
-              If there's at least one fact you didn't know before, imagine the difference it might make.</p>
-              <a href="">See Case Study</a>
-
-              <figure>
-                <blockquote>
-                  <p>“Exhibit Systems is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective.”</p>
-                </blockquote>
-                <img src="./images/Eunice.jpg" alt="Eunice Oliver photo" width="46" height="46">
-                <figcaption>
-                  <p>Eunice Oliver</p>
-                  <p>Founder & CEO, Zeem</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-        </section>
-      </article>
-
-      <!-- Экспертиза и обращение -->
-      <section>
-        <h3>Deation & Evaluation - Best Way to Kick off Your Product Idea</h3>
-        <ul>
+        <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+        dummy text ever since the 1500s,</p>
+        <ul class="project-list list">
           <li>
-            <h4>Product Design Sprint</h4>
-            <p>A five-day workshop that will help you answer crucial business questions</p>
-            <a href="">Read more</a>
+            <img src="./images/project-1.jpg" alt="some number of elements" width="735" height="550">
+            <h3 class="title">The wall new Balenciaga.com</h3>
+            <p class="text">This article is floated online with an aim to help you find the best dvd printing solution.
+            Dvd printing is an important feature used by large and small DVD production houses to print information on DVDs.</p>
+            <a class="link" href="">See Case Study</a>
+
+            <figure class="scdn-quote">
+              <blockquote class="quote-txt">
+                <p>“In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”</p>
+              </blockquote>
+              <img src="./images/Angel.jpg" alt="Angel Armstrong photo" width="46" height="46">
+              <figcaption>
+                <p class="quote-sign">Angel Armstrong</p>
+                <p class="quote-title">Founder & CEO, Google</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <img src="./images/project-2.jpg" alt="some number of elements" width="735" height="550">
+            <h3 class="title">Is this the future of 3D model?</h3>
+            <p>While it was just a TV show, that little speech at the beginning of the original Star Trek show really did do a good job
+            of capturing our feelings about space.
+            It is those feelings that drive our love of astronomy and our desire to learn more and more about it.</p>
+            <a class="link" href="">See Case Study</a>
+
+            <figure class="scdn-quote">
+              <blockquote class="quote-txt">
+                <p>“I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems.</p>
+              </blockquote>
+              <img src="./images/lina.jpg" alt="Lina Hart photo" width="46" height="46">
+              <figcaption>
+                <p class="quote-sign">Lina Hart</p>
+                <p class="quote-title">Founder & CEO, Jico</p>
+              </figcaption>
+            </figure>
+
+          <li>
+            <img src="./images/project-3.jpg" alt="some number of elements" width="735" height="550">
+            <h3 class="title">Is this the future of Online Booking</h3>
+            <p>You should be able to find several indispensable facts about motivation in the following paragraphs.
+            If there's at least one fact you didn't know before, imagine the difference it might make.</p>
+            <a class="link" href="">See Case Study</a>
+
+            <figure class="scdn-quote">
+              <blockquote class="quote-txt">
+                <p>“Exhibit Systems is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective.”</p>
+              </blockquote>
+              <img src="./images/Eunice.jpg" alt="Eunice Oliver photo" width="46" height="46">
+              <figcaption>
+                <p class="quote-sign">Eunice Oliver</p>
+                <p class="quote-title">Founder & CEO, Zeem</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Экспертиза  -->
+      <section class="evaluation">
+        <h2 class="section-title">Deation & Evaluation - Best Way to Kick off Your Product Idea</h2>
+        <ul class="list">
+          <li>
+            <h3 class="title">Product Design Sprint</h3>
+            <p class="text">A five-day workshop that will help you answer crucial business questions</p>
+            <a class="link" href="">Read more</a>
           </li>
           <li>
-            <h4>Scoping Session</h4>
-            <p>A workshop aimed at shaping your business idea, answering questions regarding project planning</p>
-            <a href="">Read more</a>
+            <h3 class="title">Scoping Session</h3>
+            <p class="text">A workshop aimed at shaping your business idea, answering questions regarding project planning</p>
+            <a class="link" href="">Read more</a>
           </li>
           <li>
-            <h4>UX Review</h4>
-            <p>An evaluation which will help you radically improve your product.</p>
-            <a href="">Read more</a>
+            <h3 class="title">UX Review</h3>
+            <p class="text">An evaluation which will help you radically improve your product.</p>
+            <a class="link" href="">Read more</a>
           </li>
           <li>
-            <h4>Code Review</h4>
-            <p>Do you know what one of the key secrets of success
+            <h3 class="title">Code Review</h3>
+            <p class="text">Do you know what one of the key secrets of success
             is what makes people successful in business</p>
-            <a href="">Read more</a>
+            <a class="link" href="">Read more</a>
           </li>
         </ul>
       </section>
@@ -180,81 +191,87 @@
 
     <footer>
       <!-- Призыв к действию -->
-      <section>
-        <h3>Let's make something amazing together.</h3>
+      <aside class="call">
+        <h3 class="section-title">Let's make something amazing together.</h3>
 
-        <a href="">LET'S GET STARTED</a>
-      </section>
+        <a class="link" href="">Let's get started</a>
+      </aside>
 
       <!-- Контактная информация -->
-      <section>
-        <h3 hidden>About company</h3>
+      <section class="footer">
+        <h2 hidden>About company</h2>
 
-        <address>
-          <p>Address</p>
-          <a href="">491 Merlin Crest Suite 963</a>
-          <p>Phone</p>
-          <a href="tel:+3250312832">+32 50 31 28 32</a>
-        </address>
+        <div class="address">
+          <ul class="address-list list">
+            <li class="item">
+              <p class="text">Phone</p>
+              <a class="link" href="tel:+3250312832">+32 50 31 28 32</a>
+            </li>
+            <li class="item">
+              <p class="text">Address</p>
+              <a class="link" href="">491 Merlin Crest Suite 963</a>
+            </li>
+          </ul>
+        </div>
 
-        <div>
-          <ul>
+        <div class="about-cont">
+          <ul  class="primary-list list">
             <li>
-              <h4>Services</h4>
-              <ul>
-                <li><a href="">Strategy Design</a></li>
-                <li><a href="">Product Design</a></li>
-                <li><a href="">Content Strategy</a></li>
-                <li><a href="">Brand Strategy</a></li>
-                <li><a href="">Development</a></li>
+              <h3 class="title">Services</h3>
+              <ul class="secondary-list list">
+                <li><a class="link" href="">Strategy Design</a></li>
+                <li><a class="link" href="">Product Design</a></li>
+                <li><a class="link" href="">Content Strategy</a></li>
+                <li><a class="link" href="">Brand Strategy</a></li>
+                <li><a class="link" href="">Development</a></li>
               </ul>
             </li>
           
             <li>
-              <h4>Help And Advice</h4>
-              <ul>
-                <li><a href="">How it works</a></li>
-                <li><a href="">Contact Support</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">FAQ</a></li>
+              <h3 class="title">Help And Advice</h3>
+              <ul class="secondary-list list">
+                <li><a class="link" href="">How it works</a></li>
+                <li><a class="link" href="">Contact Support</a></li>
+                <li><a class="link" href="">Privacy Policy</a></li>
+                <li><a class="link" href="">FAQ</a></li>
               </ul>
             </li>
           
             <li>
-              <h4>Company</h4>
-              <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Jobs</a></li>
+              <h3 class="title">Company</h3>
+              <ul class="secondary-list list">
+                <li><a class="link" href="">About</a></li>
+                <li><a class="link" href="">Blog</a></li>
+                <li><a class="link" href="">Contact</a></li>
+                <li><a class="link" href="">Jobs</a></li>
               </ul>
             </li>
           </ul>
         </div>
-          ]
-        <div>
-          <h4>Get in Touch</h4>
-          <ul>
+          
+        <div class="contacts-cont">
+          <h3 class="title">Get in Touch</h3>
+          <ul class="primary-list list">
             <li>
-              <p>Feel free to get in touch with us vai email</p>
+              <p class="text">Feel free to get in touch with us vai email</p>
+              <a class="link" href="mailto:info.webovio@gmail.com">info.webovio@gmail.com</a>
             </li>
-            <li><a href="maito:info.webovio@gmail.com">info.webovio@gmail.com</a></li>
             <li>
-              <ul>
-                <li><a href="" aria-label="Facebook link">Facebook</a></li>
-                <li><a href="" aria-label="Twitter link">Twitter</a></li>
-                <li><a href="" aria-label="Google link">Instagram</a></li>
-                <li><a href="" aria-label="Instagram link">LinkedIn</a></li>
+              <ul class="secondary-list list">
+                <li class="item"><a class="link" href=""><img src="./images/icons/facebook.svg" alt="facebook icon" width="33" height="33"></a></li>
+                <li class="item"><a class="link" href=""><img src="./images/icons/twitter.svg" alt="twitter icon" width="33" height="33"></a></li>
+                <li class="item"><a class="link" href=""><img src="./images/icons/google.svg" alt="google icon" width="33" height="33"></a></li>
+                <li class="item"><a class="link" href=""><img src="./images/icons/linkedin.svg" alt="linkedin icon" width="33" height="33"></a></li>
               </ul>
             </li>
           </ul>
         </div>
     
 
-        <div>
-          <a href="./index.html"><img src="./images/Logo.svg" alt="site logo"></a>
+        <div class="info-cont">
+          <a class="link" href="./index.html"><img src="./images/Logo.svg" alt="site logo" width="200" height="35"></a>
 
-          <p>&#169; 2020&#64;webovio. All Rights Reserved.</p>
+          <p class="text">&#169; 2020&#64;webovio. All Rights Reserved.</p>
         </div>
 
       </section>
