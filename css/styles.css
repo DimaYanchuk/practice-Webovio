@@ -148,6 +148,10 @@ body {
   color: var(--footer-text);
 }
 
+.hero-dtls .item {
+  display: inline;
+}
+
 /* Клиенты */
 
 .clients {
