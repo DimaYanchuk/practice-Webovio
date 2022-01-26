@@ -1,0 +1,372 @@
+/* Палитра цветов */
+/* Основной цвет фона, белый текст #fff */
+/* Цвет фона футера #4F553D */
+/* Основной цвет текста rgba(33, 56, 66, 0.6) */
+/* Цвет текста заголовков и цитат #4D533C */
+/* Цвет текста футера #B6C197 */
+/* Цвет текста подписи цитаты #152934 */
+/* Акцент #FFD723 */
+
+/* Общие стили */
+
+:root {
+  --primary-white: #fff;
+  --footer-background: #4f553d;
+  --primary-text: rgba(33, 56, 66, 0.6);
+  --title-quote: #4d533c;
+  --footer-text: #b6c197;
+  --secondary-quote: #152934;
+  --main-links: #d4d6d4;
+  --accent: #ffd723;
+}
+
+body {
+  color: var(--primary-text);
+
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+
+  position: relative;
+  width: 1440px;
+  height: 5960px;
+  background: #ffffff;
+}
+
+/* Списки */
+
+.list {
+  list-style: none;
+}
+
+/* Заголовки */
+
+.section-title {
+  color: var(--title-quote);
+}
+
+.title {
+  color: var(--title-quote);
+
+  font-size: 36px;
+  line-height: 1.33;
+}
+
+/* Ссылки */
+
+.link {
+  color: var(--main-links);
+  font-weight: 700;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent);
+}
+
+/* Цитаты */
+
+.quote-txt {
+  color: var(--title-quote);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.quote-sign {
+  color: var(--title-quote);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.quote-title {
+  color: var(--secondary-quote);
+}
+
+/* Шапка */
+.nav {
+  position: absolute;
+  width: 1111px;
+  height: 43px;
+  left: 164px;
+  top: 23px;
+}
+
+/* Основной контент */
+
+/* Герой */
+
+.hero {
+  color: var(--primary-white);
+  background-image: url(../images/Bitmap.jpg);
+  width: 1441px;
+  height: 811px;
+}
+
+.hero-cont {
+  position: absolute;
+  width: 616px;
+  height: 412px;
+  left: 166px;
+  top: 187px;
+}
+
+.hero-cont .hero-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.hero-cont .text-above {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* .hero-cont .text-below {
+} */
+
+.hero-dtls {
+  color: var(--main-links);
+
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero-dtls:hover,
+.hero-dtls:focus {
+  color: var(--accent);
+}
+
+.hero-dtls .list {
+  color: var(--main-links);
+}
+
+.hero-dtls .text {
+  color: var(--footer-text);
+}
+
+/* Клиенты */
+
+.clients {
+  width: 1276px;
+  height: 227px;
+
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+}
+
+/* .clients .list {
+} */
+
+.clients .item {
+  display: inline;
+}
+
+/* Услуги */
+
+/* .services {
+}
+
+.services-cont {
+} */
+
+.services-cont .text-above {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.services-cont .section-title {
+  font-size: 36px;
+  line-height: 1.27;
+}
+
+.prim-quote {
+  width: 474px;
+  height: 644px;
+
+  background: #ffffff;
+  box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+}
+
+.prim-quote .quote-txt {
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+.prim-quote .quote-sign {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.prim-quote .quote-title {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Проекты */
+
+.projects .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.scdn-quote {
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 8px;
+
+  width: 453px;
+  height: 243px;
+}
+
+/* Экспертиза */
+
+/* .evaluation {
+
+} */
+
+.evaluation .section-title {
+  font-size: 36px;
+  line-height: 1.27;
+}
+
+.evaluation .title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.42;
+
+  text-transform: uppercase;
+}
+
+.evaluation .text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+}
+
+/* Футер */
+
+/* Призыв к действию */
+
+.call {
+  width: 1275px;
+  height: 362px;
+
+  background: #fafafa;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+}
+
+.call .section-title {
+  font-size: 60px;
+  line-height: 1.23;
+}
+
+.call .link {
+  text-transform: uppercase;
+}
+
+/* Контакная информация */
+
+.footer {
+  background-color: var(--footer-background);
+  background-image: url(../images/Object.svg);
+}
+
+.footer .link {
+  text-decoration: none;
+}
+
+.footer .link:focus,
+.footer .link:hover {
+  color: var(--accent);
+}
+
+/* Адрес */
+
+.address .address-list .item {
+  display: inline;
+}
+
+.address .text {
+  color: var(--footer-text);
+
+  font-size: 16px;
+  line-height: 2.5;
+  font-style: normal;
+}
+
+.address .link {
+  color: var(--primary-white);
+
+  font-size: 16px;
+  line-height: 2.5;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* О компании */
+
+/* .about-cont {
+
+} */
+
+.about-cont .title {
+  color: var(--primary-white);
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2.4;
+  text-transform: uppercase;
+}
+
+.about-cont .link {
+  color: var(--footer-text);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+/* Контакты */
+
+.contacts-cont .title {
+  color: var(--primary-white);
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2.4;
+  text-transform: uppercase;
+}
+
+.contacts-cont .text {
+  color: var(--footer-text);
+
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.contacts-cont .link {
+  color: var(--primary-white);
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.58;
+}
+
+.contacts-cont .secondary-list .item {
+  display: inline;
+}
+
+/* Инфо */
+
+.info-cont .text {
+  color: var(--footer-text);
+
+  font-size: 14px;
+  line-height: 1.5;
+}
