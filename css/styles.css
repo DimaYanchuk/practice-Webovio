@@ -53,26 +53,18 @@ blockquote {
 .section {
   padding-top: 150px;
   padding-bottom: 150px;
-
-  /* outline: 1px solid teal; */
 }
 
 .primary-container {
-  width: 1140px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1110px;
   margin-right: auto;
   margin-left: auto;
-
-  /* outline: 1px solid tomato; */
 }
 
 .secondary-container {
   width: 1306px;
   margin-right: auto;
   margin-left: 0;
-
-  /* outline: 1px solid tomato; */
 }
 
 .list {
@@ -443,6 +435,21 @@ blockquote {
 
 /* Футер */
 
+.section.footer {
+  padding-bottom: 20px;
+  background-color: var(--footer-background);
+  background-image: url(../images/Object.svg);
+}
+
+.footer .link {
+  text-decoration: none;
+}
+
+.footer .link:focus,
+.footer .link:hover {
+  color: var(--accent);
+}
+
 /* Призыв к действию */
 
 .call {
@@ -468,24 +475,11 @@ blockquote {
 
 /* Контакная информация */
 
-.footer {
-  background-color: var(--footer-background);
-  background-image: url(../images/Object.svg);
-}
-
-.footer .link {
-  text-decoration: none;
-}
-
-.footer .link:focus,
-.footer .link:hover {
-  color: var(--accent);
-}
-
 /* Адрес */
 
 .primary-container.address {
   padding-top: 160px;
+  padding-bottom: 52px;
 }
 
 .address-list {
@@ -516,15 +510,33 @@ blockquote {
 
 /* О компании */
 
-.about .primary-list {
+.primary-container.about-contacts {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 30px;
+
+  border-top: 1px solid #5d6544;
+  border-bottom: 1px solid #5d6544;
+}
+
+.about-container .primary-list {
   display: flex;
 }
 
-/* .about-cont {
+.about-container .item {
+  width: 167px;
+}
 
-} */
+.about-container .item:first-child {
+  margin-right: 78px;
+}
 
-.about .title {
+.about-container .item:last-child {
+  margin-left: 100px;
+}
+
+.about-container .title {
   color: var(--primary-white);
 
   font-weight: 600;
@@ -533,7 +545,7 @@ blockquote {
   text-transform: uppercase;
 }
 
-.about .link {
+.about-container .link {
   color: var(--footer-text);
 
   font-weight: 400;
@@ -543,7 +555,11 @@ blockquote {
 
 /* Контакты */
 
-.contacts-cont .title {
+.primary-container .contacts-container {
+  margin-left: auto;
+}
+
+.contacts-container .title {
   color: var(--primary-white);
 
   font-weight: 600;
@@ -552,14 +568,19 @@ blockquote {
   text-transform: uppercase;
 }
 
-.contacts-cont .text {
+.contacts-primary-list .text {
+  padding-bottom: 23px;
+
   color: var(--footer-text);
 
   font-size: 16px;
   line-height: 1.62;
 }
 
-.contacts-cont .link {
+.contacts-primary-list .link {
+  display: inline-block;
+  margin-bottom: 24px;
+
   color: var(--primary-white);
 
   font-weight: bold;
@@ -567,12 +588,39 @@ blockquote {
   line-height: 1.58;
 }
 
-.contacts-cont .secondary-list .item {
+.contacts-container .contacts-secondary-list {
+  display: flex;
+}
+
+.contacts-secondary-list .item + .item {
+  margin-left: 12px;
+}
+
+.contacts-secondary-list .link {
+  color: var(--main-links);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
 }
 
 /* Инфо */
 
-.info-cont .text {
+.copyright-container.primary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1110px;
+}
+
+.copyright-container .link {
+  display: inline-block;
+}
+
+.copyright-container .icon {
+  display: block;
+}
+
+.copyright-container .text {
   color: var(--footer-text);
 
   font-size: 14px;
